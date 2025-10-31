@@ -1,1 +1,6 @@
-export default function Home() { return <div>Asistente Legal Comware</div>; }
+
+import GPTPortal from '../src/GPTPortal';
+
+export default function Home() {
+  return <GPTPortal />;
+}
